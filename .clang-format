@@ -1,0 +1,26 @@
+---
+Language: Cpp
+# Use 4 spaces for indentation
+IndentWidth: 4
+# Use spaces for indentation
+UseTab: Never
+# Don't break braces on function, namespace and class definitions.
+BreakBeforeBraces: Attach
+# Horizontally align arguments after an open bracket
+AlignAfterOpenBracket: Align
+# Allow putting all parameters of a function declaration onto the next line
+AllowAllParametersOfDeclarationOnNextLine: true
+# Penalties for line breaking
+PenaltyBreakAssignment: 2
+PenaltyBreakBeforeFirstCallParameter: 1
+PenaltyBreakComment: 300
+PenaltyBreakFirstLessLess: 120
+PenaltyBreakString: 1000
+PenaltyExcessCharacter: 1000000
+PenaltyReturnTypeOnItsOwnLine: 200
+# Don't break after return type
+AlwaysBreakAfterReturnType: None
+# Don't sort includes
+SortIncludes: false
+# It's 2024, I cast column limit extendo!!!
+ColumnLimit: 120
